@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.main_container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('wallpaperflare.com_wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+}
+
+.title_container{
+    width: 100%;
+    display: inline-block;
+   height:auto;
+   
+   text-align: center;
+}
+
+.title{
+    margin-top: 40px;
+    width: 100%;
+    
+}
