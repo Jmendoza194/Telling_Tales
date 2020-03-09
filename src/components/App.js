@@ -14,7 +14,7 @@ class App extends React.Component{
         return(
             <div className='main_container'>
                 <div className='title_container'>
-                    <h1 className='title'>The 6 Heroes and 6 gods</h1>
+                    <h1 className='title'>The 5 Heroes and 5 gods</h1>
                 </div>
                 <CardList name={this.state.name} pic={this.state.picture}/>
             </div>
