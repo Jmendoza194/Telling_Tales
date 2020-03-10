@@ -9,7 +9,7 @@
     background-image: url('wallpaperflare.com_wallpaper.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .title_container{

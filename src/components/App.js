@@ -17,6 +17,7 @@ class App extends React.Component{
                     <h1 className='title'>The 5 Heroes and 5 gods</h1>
                 </div>
                 <CardList name={this.state.name} pic={this.state.picture}/>
+                
             </div>
         )
     }
