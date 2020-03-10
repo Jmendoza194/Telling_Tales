@@ -1,14 +1,14 @@
 import React from 'react';
 import Card from './Card';
 
-const CardList = ({ pic, name }) =>{
+const CardList = ({ description, name, container }) =>{
 
     const renderList = name.map((name, index) =>{
-        return <Card name={name} portrait={pic[index]} order={index%3} />
+        return <Card name={name} description={description[index]} />
     })
 
     return (
-        <div className='card-grid'>
+        <div className={`card-grid-${container}`}>
             {renderList}
         </div>
     )

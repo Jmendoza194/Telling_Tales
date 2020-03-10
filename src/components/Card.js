@@ -18,12 +18,17 @@ class Card extends React.Component{
 
     render(){
 
-            let show = this.state.popUp ? <CardPop hero={this.props.name}/>: null;
+            let show = this.state.popUp ? <CardPop hero={this.props.name} description={this.props.description}/>: null;
             
 
         return(
             <div className={`card-container ${this.props.name}`} onClick={this.togglePopUp}>
-                {this.props.name}
+                <div className='name'>
+                    <h4 className=''>
+                        {this.props.name}
+                    </h4>
+                </div>
+                
                 {show}
             </div>
         )
